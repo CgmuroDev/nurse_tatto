@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nurse Tatto | Tatuajes & Perforaciones</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">⚕</span>
+                <span class="logo-text">NURSE TATTO</span>
+            </a>
+            <button class="nav-toggle" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#perforaciones" class="nav-link">Perforaciones</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-decoration">
+                <span>✦</span>
+                <span>✦</span>
+                <span>✦</span>
+            </div>
+            <h1 class="hero-title">Tatuajes &<br><span class="highlight">Perforaciones</span></h1>
+            <p class="hero-subtitle">Arte corporal profesional. Tu visión, nuestra pasión.</p>
+            <div class="hero-buttons">
+                <a href="#galeria" class="btn btn-primary">Ver Trabajos</a>
+                <a href="#contacto" class="btn btn-secondary">Reservar Cita</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <section id="galeria" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Galería de Trabajos</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="tatuaje">Tatuajes</button>
+                <button class="filter-btn" data-filter="perforacion">Perforaciones</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="tatuaje">
+                    <img src="img/tatuajes/tattoo-1.jpg" alt="Tatuaje Blackwork">
+                    <div class="gallery-overlay">
+                        <h3>Blackwork</h3>
+                        <p>Sombreado y texturas</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="perforacion">
+                    <img src="img/perforaciones/perforacion-1.jpg" alt="Perforación Lóbulo">
+                    <div class="gallery-overlay">
+                        <h3>Lóbulo Triple</h3>
+                        <p>Expansión progresiva</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="tatuaje">
+                    <img src="img/tatuajes/tattoo-3.jpg" alt="Tatuaje Full Color">
+                    <div class="gallery-overlay">
+                        <h3>Full Color</h3>
+                        <p>Colores vibrantes</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="perforacion">
+                    <img src="img/perforaciones/perforacion-2.jpg" alt="Perforación Lóbulo">
+                    <div class="gallery-overlay">
+                        <h3>Lóbulo Triple</h3>
+                        <p>Joyería delicada</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="tatuaje">
+                    <img src="img/tatuajes/tattoo-5.jpg" alt="Tatuaje Minimalista">
+                    <div class="gallery-overlay">
+                        <h3>Minimalista</h3>
+                        <p>Líneas simples</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="tatuaje">
+                    <img src="img/tatuajes/tattoo-6.jpg" alt="Tatuaje Botánico">
+                    <div class="gallery-overlay">
+                        <h3>Botánico</h3>
+                        <p>Naturaleza en tinta</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="tatuaje">
+                    <img src="img/tatuajes/tattoo-7.jpg" alt="Tatuaje Fine Line">
+                    <div class="gallery-overlay">
+                        <h3>Fine Line</h3>
+                        <p>Trazo delicado</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="tatuaje">
+                    <img src="img/tatuajes/tattoo-8.jpg" alt="Tatuaje Anime">
+                    <div class="gallery-overlay">
+                        <h3>Anime</h3>
+                        <p>Estilo japonés</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="tatuaje">
+                    <img src="img/tatuajes/tattoo-9.jpg" alt="Tatuaje Geométrico">
+                    <div class="gallery-overlay">
+                        <h3>Geométrico</h3>
+                        <p>Formas y líneas</p>
+                    </div>
+                </div>
+                <div class="gallery-item load-more" data-category="tatuaje">
+                    <img src="img/tatuajes/tattoo-10.jpg" alt="Tatuaje Lettering">
+                    <div class="gallery-overlay">
+                        <h3>Lettering</h3>
+                        <p>Tipografía artística</p>
+                    </div>
+                </div>
+                <div class="gallery-item load-more" data-category="tatuaje">
+                    <img src="img/tatuajes/tattoo-11.jpg" alt="Tatuaje Neo Tribal">
+                    <div class="gallery-overlay">
+                        <h3>Neo Tribal</h3>
+                        <p>Tribal moderno</p>
+                    </div>
+                </div>
+                <div class="gallery-item load-more" data-category="tatuaje">
+                    <img src="img/tatuajes/tattoo-12.jpg" alt="Tatuaje Tribal">
+                    <div class="gallery-overlay">
+                        <h3>Tribal</h3>
+                        <p>Estilo clásico</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary load-more-btn" id="loadMoreBtn">Ver Más Trabajos</button>
+        </div>
+    </section>
+
+    <section id="perforaciones" class="piercings">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Servicios</span>
+                <h2 class="section-title">Perforaciones<br><span class="highlight">Profesionales</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="piercings-grid">
+                <div class="piercing-card">
+                    <div class="piercing-icon">◎</div>
+                    <h3>Perforaciones de Oreja</h3>
+                    <p>Lóbulo, helix, tragus, industrial, conch y más</p>
+                </div>
+                <div class="piercing-card">
+                    <div class="piercing-icon">◈</div>
+                    <h3>Perforaciones Faciales</h3>
+                    <p>Nostril, septum, medusa, bridge y labios</p>
+                </div>
+                <div class="piercing-card">
+                    <div class="piercing-icon">⬡</div>
+                    <h3>Perforaciones Corporales</h3>
+                    <p>Navel, nipples, dermals y surface</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="img/artista/artist.jpg" alt="La Jami - Nurse Tatto">
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-tag">Sobre Mí</span>
+                    <h2 class="section-title">La Jami<br><span class="highlight">Nurse Tatto</span></h2>
+                    <div class="section-divider"></div>
+                    <p class="about-text">
+                        Soy La Jami, artista de Nurse Tatto. Me especializo en transformar tu visión en arte permanente. Combino técnica y creatividad para ofrecer resultados excepcionales.
+                    </p>
+                    <p class="about-text">
+                        Ya sea tatuaje o perforación, cada trabajo se realiza con los más altos estándares de higiene y seguridad, utilizando materiales sterile y técnicas avanzadas.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <span class="feature-icon">⚕</span>
+                            <div>
+                                <h4>Higiene Médica</h4>
+                                <p>Protocolos de esterilización hospitalarios</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">⚕</span>
+                            <div>
+                                <h4>Profesionales Certificados</h4>
+                                <p>Amplia experiencia en el sector</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">⚕</span>
+                            <div>
+                                <h4>Materiales Premium</h4>
+                                <p>Tintas y joyería de primera calidad</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-tag">Contacto</span>
+                    <h2 class="section-title">Reserva Tu<br><span class="highlight">Cita</span></h2>
+                    <div class="section-divider"></div>
+                    <p class="contact-text">¿Listo para tu próximo tatuaje o perforación? Contáctanos y te ayudamos a planificarlo.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">@</span>
+                            <div>
+                                <h4>Instagram</h4>
+                                <p>@nursetatto</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">◎</span>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>+34 600 000 000</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">✉</span>
+                            <div>
+                                <h4>Email</h4>
+                                <p>hola@nursetatto.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">IG</a>
+                        <a href="#" class="social-link" aria-label="TikTok">TT</a>
+                        <a href="#" class="social-link" aria-label="WhatsApp">WA</a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Teléfono</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Servicio</label>
+                            <select id="service" name="service">
+                                <option value="">Selecciona servicio</option>
+                                <option value="tatuaje">Tatuaje</option>
+                                <option value="perforacion">Perforación</option>
+                                <option value="consulta">Consulta General</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="placement">Zona</label>
+                            <input type="text" id="placement" name="placement" placeholder="¿Dónde quieres el trabajo?">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Descripción</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Cuéntanos tu idea o consulta..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Enviar Solicitud</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">⚕</span>
+                    <span class="logo-text">NURSE TATTO</span>
+                </div>
+                <p class="footer-text">© 2024 Nurse Tatto. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close">&times;</button>
+        <button class="lightbox-prev">‹</button>
+        <button class="lightbox-next">›</button>
+        <div class="lightbox-content">
+            <img src="" alt="Trabajo">
+            <div class="lightbox-info">
+                <h3></h3>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
